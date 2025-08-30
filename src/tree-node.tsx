@@ -50,6 +50,8 @@ const defaultProps = {
 }
 
 class TreeNodeComponent extends Component<TreeRendererProps> {
+  node: HTMLDivElement | null = null;
+
   render() {
     const props = { ...defaultProps, ...this.props }
     const {
@@ -159,13 +161,13 @@ class TreeNodeComponent extends Component<TreeRendererProps> {
         const style =
           rowDirection === 'rtl'
             ? {
-                width: scaffoldBlockPxWidth,
-                right: scaffoldBlockPxWidth * i,
-              }
+              width: scaffoldBlockPxWidth,
+              right: scaffoldBlockPxWidth * i,
+            }
             : {
-                width: scaffoldBlockPxWidth,
-                left: scaffoldBlockPxWidth * i,
-              }
+              width: scaffoldBlockPxWidth,
+              left: scaffoldBlockPxWidth * i,
+            }
 
         scaffold.push(
           <div

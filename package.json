@@ -1,5 +1,5 @@
 {
-  "name": "@nosferatu500/react-sortable-tree",
+  "name": "@flasham/react-sortable-tree",
   "version": "5.0.0-alpha.7",
   "description": "Drag-and-drop sortable component for nested data and hierarchies",
   "homepage": "https://nosferatu500.github.io/react-sortable-tree",
@@ -17,11 +17,9 @@
     "prepublishOnly": "npm run build",
     "deploy-storybook": "gh-pages -d storybook-static"
   },
-  "files": [
-    "lib"
-  ],
+  "files": ["lib"],
   "engines": {
-    "node": ">=20.9"
+    "node": ">=22.0"
   },
   "prettier": {
     "semi": false,
@@ -44,9 +42,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "contributors": [
-    "Vitalii Shvetsov"
-  ],
+  "contributors": ["Vitalii Shvetsov"],
   "author": "Chris Fritz",
   "license": "MIT",
   "bugs": "https://github.com/nosferatu500/react-sortable-tree/issues",
@@ -104,16 +100,7 @@
     "virtua": "^0.33.7"
   },
   "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not ie <= 11",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "production": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"],
+    "development": ["last 1 chrome version", "last 1 firefox version", "last 1 safari version"]
   }
 }
