@@ -1,6 +1,6 @@
 {
   "name": "@flasham/react-sortable-tree",
-  "version": "5.0.1",
+  "version": "5.0.0-alpha.7",
   "description": "Drag-and-drop sortable component for nested data and hierarchies",
   "homepage": "https://nosferatu500.github.io/react-sortable-tree",
   "main": "lib/index.esm.js",
@@ -58,8 +58,8 @@
     "@storybook/react": "^8.2.9",
     "@storybook/react-webpack5": "^8.2.9",
     "@types/lodash.isequal": "^4.5.8",
-    "@types/react": "^19.1.12",
-    "@types/react-dom": "^19.1.12",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
     "@typescript-eslint/eslint-plugin": "^7.18.0",
     "@typescript-eslint/parser": "^7.18.0",
     "eslint": "^8.57.0",
@@ -89,9 +89,9 @@
     "typescript": "^5.5.4"
   },
   "peerDependencies": {
-    "react": "^19.1.0",
+    "react": "^19.1.1",
     "react-dnd": "14.0.4",
-    "react-dom": "^19.1.0"
+    "react-dom": "^19.1.1"
   },
   "dependencies": {
     "lodash.isequal": "^4.5.0",
